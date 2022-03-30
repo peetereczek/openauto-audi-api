@@ -2,7 +2,7 @@
 name: Task
 about: Template for simple tasks
 title: ''
-labels: documentation, enhancement
+labels: enhancement
 assignees: peetereczek
 
 ---
@@ -12,6 +12,3 @@ assignees: peetereczek
 **CAN message sample**
 
 **Related OpenAuto API**
-
-**Create / update WIKI page**
-Please create / update related WIKI page.
