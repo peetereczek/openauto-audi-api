@@ -12,6 +12,3 @@ assignees: peetereczek
 **CAN message sample**
 
 **Related OpenAuto API**
-
-**Create / update WIKI page**
-Please create / update related WIKI page.
