@@ -2,7 +2,7 @@
 name: Task
 about: Template for simple tasks
 title: ''
-labels: documentation, enhancement
+labels: enhancement
 assignees: peetereczek
 
 ---
