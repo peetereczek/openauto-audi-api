@@ -6,6 +6,7 @@ Project dedicated to develop and support additional OpenAuto features over expos
 
 ## **Tested cars**
 - Audi A4 B6 (8E) 2001
+- Audi TT 8J
 - Audi A3 8P FL 2012
 
 ## **Installation**
