@@ -5,6 +5,7 @@ BlueWave Studio [OpenAuto Pro](https://bluewavestudio.io/) API bridge developmen
 Project dedicated to develop and support additional OpenAuto features over exposed APIs
 <br />
 ### **Tested cars**
+Audi A4 B6 (8E) 2001
 Audi A3 8P FL 2012
 <br />
 ### **Installation**
