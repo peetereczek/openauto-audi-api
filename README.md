@@ -1,14 +1,14 @@
 # openauto-audi-api
-### **Description**
+## **Description**
 BlueWave Studio [OpenAuto Pro](https://bluewavestudio.io/) API bridge development for AUDI cars to use CAN bus communication over RaspberryPi PiCAN2 interface.
-<br />
+
 Project dedicated to develop and support additional OpenAuto features over exposed APIs
-<br />
-### **Tested cars**
-Audi A4 B6 (8E) 2001
-Audi A3 8P FL 2012
-<br />
-### **Installation**
+
+## **Tested cars**
+- Audi A4 B6 (8E) 2001
+- Audi A3 8P FL 2012
+
+## **Installation**
 1. Install dependent Python packages:
 ```
 sudo pip install pynput
@@ -36,7 +36,10 @@ sudo chmod +x /home/pi/scripts/read_from_canbus.py
  - read pulling key message to shutdown the raspberry pi. Should be only relevant if you have permanent power to raspberry pi.
  - if reversecamera is on by gear detection, and forward gear gets detected, turn the camera off with delay. Better for parking situations :-)
  - set delay for turning the raspberry pi off after ignition got detected as off
-6. Add script as part of OpenAuto services. Edit file '/home/pi/.openauto/config/openauto_applications.ini'
+6. Add script as part of OpenAuto services.
+
+Edit file
+> /home/pi/.openauto/config/openauto_applications.ini
 ```
 [Application_<x>]
 Name=CAN bus scripts
@@ -45,7 +48,12 @@ IconPath=/home/pi/.openauto/icons/rnse_button.svg
 Arguments=
 Autostart=true
 ```
-### **Exclusion**
+## **Keymap for RNE-E**
+<picture>
+ <img alt="RNS-E keymap" src="https://github.com/peetereczek/openauto-audi-api/blob/d9d7985745041a725bc1ce0ea9d7a37f35a4aa35/RNS-E%20script%20keymap.jpg">
+</picture>
+
+## **Exclusion**
 In case of API support, suggestions or any other queries related to core API, please visit OpenAuto API [project](https://github.com/bluewave-studio/openauto-pro-api) or [community forum](https://www.bluewavestudio.io/community/).
-### **Credits**
+## **Credits**
 @noobychris for pushing thinks forward
