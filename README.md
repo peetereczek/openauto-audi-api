@@ -11,12 +11,10 @@ Project dedicated to develop and support additional OpenAuto features over expos
 ## **Installation**
 1. Install dependent Python packages:
 ```
-sudo pip install pynput
 sudo pip3 install pynput
-sudo pip install picamera
 sudo pip3 install picamera
-sudo pip install python-can
 sudo pip3 install python-can
+sudo pip3 install psutils
 ```
 2. Download the script to you Pi with OpenAuto
 3. Move the script to a folder you want. Example:
@@ -31,7 +29,7 @@ sudo chmod +x /home/pi/scripts/read_from_canbus.py
  - read date and time from dis/fis and set it on Raspberry Pi. Recommended, if Raspberry Pi has no internet connection in the car.
  - read reverse gear message from canbus to activate reversecamer. Reversecamera must be connected to Raspberry Pi, not to RNS-E or av-input modules for RNS-E.
  - read longpress down left rns-e button near wheel to activate reversecamera manualy.
- - control rns-e by reading rns-e button presses. This works on the whole system and not only on openauto pro gui. Im using that in kodi to navigate too (see kodi keymap editor).
+ - control rns-e by reading rns-e button presses. This works on the whole system and not only on openauto pro gui.
  - read ignition off message to shutdown the raspberry pi. Should be only relevant if you have permanent power to raspberry pi.
  - read pulling key message to shutdown the raspberry pi. Should be only relevant if you have permanent power to raspberry pi.
  - if reversecamera is on by gear detection, and forward gear gets detected, turn the camera off with delay. Better for parking situations :-)
